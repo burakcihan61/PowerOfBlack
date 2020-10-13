@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title></title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="/style.css">
+</head>
+<body>
+<section>
+    <h1>Black</h1>
+</section>
+<div class="black"></div>    
+<script type="text/javascript">
+    var pos = document.documentElement;
+    pos.addEventListener('mousemove' , e =>{
+        pos.style.setProperty('--x' , e.clientX + 'px')
+        pos.style.setProperty('--y' , e.clientY + 'px')
+    })
+</script>
+
+    
+        
+
+</body>
+</html>
